@@ -2,7 +2,6 @@
 
 Welcome to the Crop Prediction Dashboard, a web application that uses Machine Learning to recommend the most suitable crops based on climatic and soil conditions. Built using a Multi-Layer Perceptron (MLP) deep learning model, this project features an interactive interface using Streamlit.
 
-![Dashboard Screenshot](path_to_screenshot.png)
 
 ## 🚀 Features
 
