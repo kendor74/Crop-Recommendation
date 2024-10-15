@@ -13,7 +13,7 @@ st.title("Crop Data Visualizations")
 def load_data():
     # Load your dataset here
     # Example placeholder data
-    data = pd.read_csv("C:\\Users\\pc\\Downloads\\crop_data.csv")
+    data = pd.read_csv("/workspaces/Crop-Recommendation/NoteBook/crop_data.csv")
     return data
 
 df = load_data()

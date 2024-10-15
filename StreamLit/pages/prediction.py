@@ -5,14 +5,14 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model
-model = tf.keras.models.load_model("C:\\Users\\pc\\Downloads\\crop_model.h5")
+model = tf.keras.models.load_model("/workspaces/Crop-Recommendation/NoteBook/crop_model.h5")
 crop_labels = [
     "apple", "banana", "Black-gram", "chickpea", "coconut", "coffee",
     "cotton", "grapes", "jute", "kidney-beans", "lentil", "maize",
     "mango", "moth-beans", "mung-bean", "muskmelon", "orange",
     "papaya", "pigeon-peas", "pomegranate", "rice", "watermelon"
 ]
-scaler = joblib.load('C:\\Users\\pc\\Downloads\\scaler.pkl')
+scaler = joblib.load('/workspaces/Crop-Recommendation/NoteBook/scaler.pkl')
 
 # Function to predict crop
 def predict_crop(n, k, p, temperature, humidity, ph, rainfall):
